@@ -1,0 +1,308 @@
+/*Header*/
+header {
+  background-color: #9C9B7E;
+  padding: 10px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .logo img {
+  width: 50px;
+}
+header .navbar .nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header .navbar .nav-links li {
+  display: inline;
+}
+header .navbar .nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 2em;
+}
+header .navbar .nav-links li a:hover {
+  background-color: #9C9B7E;
+}
+
+h1 {
+  border: 2px solid #5B4639; /* opret en kasse omkring h1-elementet */
+  background-color: #5B4639; /* baggrundsfarve brun */
+  color: white; /* tekstfarve hvid */
+  padding: 10px; /* tilfÃ¸j lidt polstring for at skabe plads inden for kassen */
+  font-size: 3.5em; /* gÃ¸r fontstÃ¸rrelsen lidt stÃ¸rre */
+  display: inline-block; /* gÃ¸r h1-elementet til et inline-block-element for at kunne centrere det */
+  width: 98.5%;
+  align-items: center;
+  text-align: center;
+}
+
+/*Forside*/
+.img1 img {
+  width: 100%;
+  /* Add any other styling for the image */
+}
+
+p {
+  font-size: 2.5em;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Ensure the container spans the full width */
+  height: 80vh; /* Set the container height to 50% of the viewport height */
+}
+
+.green-box {
+  background-color:#9C9B7E;
+  padding: 20px;
+  width: 50%; /* Set the width of the green box to 50% */
+  height: 100%; /* Make the green box fill the entire height of the container */
+  box-sizing: border-box; /* Include padding and border in the total height */
+}
+
+.nelliestrand {
+  width: 50%; /* Set the width of the image container to 50% */
+  height: 100%; /* Make the image container fill the entire height of the container */
+  box-sizing: border-box; /* Include padding and border in the total height */
+}
+
+.nelliestrand img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  display: block;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Cards*/
+.box {
+  width: 30%;
+  margin: 0 1.5%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box h2 {
+  margin-top: 0;
+}
+
+.box img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  display: block;
+}
+
+.box p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #9C9B7E;
+}
+
+.box button {
+  background-color: #9C9B7E;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.box button:hover {
+  background-color: #9C9B7E;
+}
+
+h2 {
+  border: 2px solid #5B4639; /* opret en kasse omkring h1-elementet */
+  background-color: #5B4639; /* baggrundsfarve brun */
+  color: white; /* tekstfarve hvid */
+  padding: 10px; /* tilfÃ¸j lidt polstring for at skabe plads inden for kassen */
+  font-size: 3em; /* gÃ¸r fontstÃ¸rrelsen lidt stÃ¸rre */
+  display: inline-block; /* gÃ¸r h1-elementet til et inline-block-element for at kunne centrere det */
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+/*Hundeadfærd*/
+.image-container1 {
+  width: 100%;
+}
+
+.image-container1 img {
+  width: 100%;
+  height: auto; /* Ensure the aspect ratio is maintained */
+}
+
+.green-box1 {
+  background-color: #9C9B7E;
+  width: 100%;
+}
+
+.green-box1 p {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.brown-box1 {
+  background-color: #5B4639;
+  width: 100%;
+}
+
+.brown-box1 p {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+/*Foder*/
+.image-container2 {
+  width: 100%;
+  background-color: none;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden; /* Crop the content that overflows the container */
+  height: 50%; /* Set the height to display only the bottom half of the image */
+}
+
+.image-container2 img {
+  width: 100%;
+  height: auto;
+  margin-top: -40%; /* Move the top half of the image outside the container */
+  margin-bottom: -15%;
+}
+
+  .container {
+    display: flex;
+}
+
+.image-stack {
+    width: 30%; /* Set width of the image stack */
+    height: auto;
+}
+
+.image-stack img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px; /* Add some spacing between images */
+}
+
+.green-box2 {
+    width: 60%; /* Set width of the green box */
+    background-color: #5B4639;
+    padding: 20px;
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+.green-box2 p {
+    color: white;
+}
+
+/*Hundetræning*/
+.image-container4 {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 1.5%; /* Maintain original padding */
+  padding-bottom: 1.5%; /* Maintain original padding */
+}
+
+.image-container4 img {
+  width: 100%;
+  margin-top: -40%;
+  margin-bottom: -40%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.image-container6 {
+  width: 50%; /* Each image takes up one-third of the page width */
+}
+
+.image-container6 img {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px; /* Adjust spacing between images */
+}
+
+.text-container6 {
+  width: 50%; /* Text container takes up two-thirds of the page width */
+}
+
+.green-box6 {
+  background-color: #9C9B7E;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .image-container6,
+  .text-container6 {
+      width: 100%; /* At smaller screen sizes, make both containers full width */
+  }
+}
+
+
+/*Footer*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #9C9B7E;
+  color: white;
+  padding: 20px;
+}
+
+.contact-info {
+  flex: 1;
+  margin-right: 20px; /* Adjust as needed */
+  font-size: 1em;
+}
+
+.contact-info p {
+  font-size: 1em;
+}
+.social-media {
+  flex: 1;
+}
+
+.social-media p {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
